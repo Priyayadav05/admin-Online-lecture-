@@ -1,0 +1,9 @@
+h1 , h2{
+    text-align: center;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 0;
+    height: 50%;
+}

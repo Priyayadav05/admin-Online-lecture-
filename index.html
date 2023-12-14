@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+    <div class="Admin Panel">
+        <h1>Online Lecture Scheduling Module</h1>
+
+        <div id="instructors-list">
+            <h2>List of Instructors</h2>
+            <ul id="instructors"></ul>
+        </div>
+
+        <div id="add-course-form">
+            <h2>Add Course</h2>
+            <form id="course-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="level">Level:</label>
+                <input type="text" id="level" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" required></textarea>
+
+                <label for="image">Image URL:</label>
+                <input type="text" id="image">
+
+                <button type="button" onclick="addCourse()">Add Course</button>
+            </form>
+        </div>
+        <div id="courses-list">
+            <h2>List of Courses</h2>
+            <ul id="courses"></ul>
+        </div>
+
+        <div class="rightSection">
+            <img src="img.jpg" alt="">
+        </div> 
+
+    </div>
+</body>
+</html>
